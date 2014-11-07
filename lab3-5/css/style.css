@@ -1,0 +1,356 @@
+body
+{
+	background: url(../images/bg.png) repeat;
+}
+
+.wrapper
+{
+	width: 1000px;
+	height: auto;
+	margin: 50px auto;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+	background: #fff;
+}
+
+.header
+{
+	border-top: 4px solid #f2ac04;
+}
+
+.logo
+{
+	background: url(../images/logo_big.png) no-repeat;
+	width: 210px;
+	height: 56px;
+	border-right: 1px solid #929292;
+}
+
+.clear
+{
+	clear: both;
+}
+
+h2
+{
+	font-family: Arial;
+	font-size: 18px;
+	color: #565656;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+
+ul
+{
+	list-style: none;
+}
+
+li
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+
+li p
+{
+	font-family: Arial;
+	font-size: 20px;
+	color: #f2ac04;
+	margin: 0;
+}
+
+li span
+{
+	font-size: 14px;
+	color: #929292;
+}
+
+ul.menu 
+{
+	font-family: Arial;
+	font-size: 18px;
+	color: #6b6b6b;
+	border-top: 1px solid #6b6b6b; 
+	border-bottom: 1px solid #6b6b6b; 
+	text-align: center;
+	margin: 0 40px;
+	padding: 10px;
+}
+
+.menu li
+{
+    padding: 10px 40px;
+    color: #898989;
+    margin: 0;
+}
+
+.content
+{
+	padding: 10px 40px 0;
+	font-size: 12px;
+	font-family: Tahoma;
+	color: #555656;
+}
+
+.cactus
+{
+	background: #fff;
+	float: left;
+	width: 450px;
+	height: 300px;
+	border: 1px solid #b0b0b0;
+}
+
+.plant
+{
+	background: url(../images/cactus.png) no-repeat;
+	width: 446px;
+	height: 296px;
+	border: 1px solid #d4d4d4;
+	margin: 0 auto;
+	position: relative;
+}
+
+.slider 
+{
+	background: #fff;
+	width: 426px;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.slider li
+{
+	padding: 10px;
+	margin: 0;
+}
+
+.description
+{
+	width: 310px;
+	font-family: Tahoma;
+	font-size: 18px;
+	color: #565656;
+}
+
+.budha
+{
+	width: 450px;
+	height: 300px;
+	float: right;
+}
+
+.Title
+{
+	width: 450px;
+	background: url(../images/budha.png) no-repeat;
+	padding: 70px 10px 0;
+	color: #fff;
+}
+
+.Title p
+{
+	font-family: Arial;
+	font-size: 26px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.Title span
+{
+	font-size: 40px;
+}
+
+.mission
+{
+	font-size: 12px;
+	font-family: Tahoma;
+	color: #3c3c3c;
+	border-top: 1px solid #000;
+	padding-top: 10px;
+	line-height: 1.8;
+}
+
+.more
+{
+	width: 57px;
+	height: 15px;
+	float: right;
+	background: url(../images/learn.png) no-repeat;
+	margin-top: 10px;
+}
+
+.columns
+{
+	border-top: 1px solid #ccc;
+	margin: 20px 0;
+}
+
+.dates
+{
+	width: 275px;
+	float: left;
+	padding-right: 20px;
+	margin-top: 30px;
+	border-right: 1px solid #ccc;
+	height: 270px;
+}
+
+.text
+{
+	text-align: center;
+	color: #f2ac04;
+	font-size: 18px;
+	line-height: 0.7;
+	border-right: 1px solid #ccc;
+	padding: 5px;
+	float: left;
+}
+
+.text span
+{
+	color: #777;
+	font-size: 9px;
+}
+
+.right
+{
+	text-align: left;
+	color: #565656;
+	font-size: 14px;
+	padding-left: 40px;
+}
+
+.right span
+{
+	color: #939393;
+	font-size: 12px;
+}
+
+.line
+{
+	border-bottom: 1px dotted #565656;
+	padding: 10px 0;
+}
+
+.we
+{
+	width: 275px;
+	padding: 0 20px;
+	border-right: 1px solid #ccc;
+	width: 280px;
+	float: left;	
+	padding-right: 20px;
+	margin-top: 30px;
+	height: 270px;
+}
+
+.clients
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+ul.logos 
+{
+	text-align: center;
+	padding: 0;
+}
+
+.footer
+{
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+ul.small_menu 
+{
+	font-family: Arial;
+	font-size: 10px;
+	color: #535353;
+	text-align: center;
+}
+
+.small_menu li
+{
+    margin: 0;
+    padding: 0 5px;
+    border-right: 1px solid #535353;
+    line-height: 8px;
+}
+
+.small_menu li:last-child
+{
+	border: none;
+}
+
+.copyright
+{
+	color: #545454;
+	font-size: 14px;
+	font-family: Arial;
+}
+
+.list
+{
+	width: 275px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 30px;
+	height: 270px;
+}
+
+.list li
+{
+    border-bottom: 1px dotted grey;
+    width: 190px;
+}
+
+.list ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+.phone
+{
+    background-image: url(../images/phone.png);
+    background-repeat: no-repeat;
+    background-position: -3px 10px;
+    padding: 15px 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.fax
+{
+    background-image: url(../images/fax.png);
+    background-repeat: no-repeat;
+    background-position: -3px 10px;
+    padding: 15px 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.email
+{
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+    background-position: -3px 10px;
+    padding: 15px 40px;
+    margin: 0;
+}
+
+li.address
+{
+    background-image: url(../images/address.png);
+    background-repeat: no-repeat;
+    background-position: -3px 10px;
+    padding: 15px 40px;
+    margin: 0;
+    border-bottom: 0;
+}
